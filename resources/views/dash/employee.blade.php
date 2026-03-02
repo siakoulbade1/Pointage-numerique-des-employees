@@ -5,9 +5,25 @@
     <!-- Sidebar -->
     @include('dash.siaka.sidebar')
 
+    <!-- Main Content -->
+    <div id="content">
+        <!-- Header -->
 
 
-@include('dash.siaka.gestion_employe')
+        <!-- Page Content -->
+        <main class="container-fluid p-4" id="dashboard">
+            <!-- Quick Stats -->
+         @include('dash.siaka.gestion_employe')
+            <!-- Main Dashboard -->
+
+        </main>
+
+
+
+    </div>
+    </div>
+
+
     <!-- Add Employee Modal -->
    @include('dash.siaka.modal_ajouter_emp')
     @include('dash.siaka.script')

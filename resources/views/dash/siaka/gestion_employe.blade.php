@@ -12,55 +12,52 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="section-body">
-                            <div class="employee-grid">
-                                <div class="employee-card">
-                                    <div class="employee-avatar">MA</div>
-                                    <div class="employee-info">
-                                        <h4>Marie Allard</h4>
-                                        <p>Responsable RH · marie@entreprise.com</p>
-                                        <span class="employee-status status-present">
-                                            <i class="bi bi-check-circle"></i>
-                                            Présent
-                                        </span>
-                                    </div>
-                                </div>
 
-                                <div class="employee-card">
-                                    <div class="employee-avatar" style="background: linear-gradient(135deg, #f97316, #fb923c);">JP</div>
-                                    <div class="employee-info">
-                                        <h4>Jean Petit</h4>
-                                        <p>Développeur Senior · jean@entreprise.com</p>
-                                        <span class="employee-status status-late">
-                                            <i class="bi bi-clock"></i>
-                                            En retard
-                                        </span>
-                                    </div>
-                                </div>
+</div>
+<div class="dashboard-section" data-aos="fade-up" data-aos-delay="250">
+                <div class="section-header">
+                    <h3>
+                        <i class="bi bi-activity"></i>
+                        Liste des employées
+                    </h3>
+                    <button class="btn btn-outline">
+                        <i class="bi bi-arrow-clockwise me-2"></i>
+                        Actualiser
+                    </button>
+                </div>
+                <div class="section-body">
+                    <div class="table-container">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Matricule</th>
+                                    <th>Nom</th>
+                                    <th>Prenom</th>
+                                    <th>Fonction</th>
 
-                                <div class="employee-card">
-                                    <div class="employee-avatar" style="background: linear-gradient(135deg, #10b981, #34d399);">SD</div>
-                                    <div class="employee-info">
-                                        <h4>Sophie Dubois</h4>
-                                        <p>Chef de Projet · sophie@entreprise.com</p>
-                                        <span class="employee-status status-present">
-                                            <i class="bi bi-check-circle"></i>
-                                            Présent
-                                        </span>
-                                    </div>
-                                </div>
+                                </tr>
+                            </thead>
+                            <tbody>
 
-                                <div class="employee-card">
-                                    <div class="employee-avatar" style="background: linear-gradient(135deg, #8b5cf6, #a78bfa);">TM</div>
-                                    <div class="employee-info">
-                                        <h4>Thomas Martin</h4>
-                                        <p>Analyste Financier · thomas@entreprise.com</p>
-                                        <span class="employee-status status-absent">
-                                            <i class="bi bi-x-circle"></i>
-                                            Absent
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td>
+                                        M0152
+                                    </td>
+                                    <td>
+                                       TRAORE
+                                    </td>
+
+                                    <td>
+                                        Siaka
+                                    </td>
+                                    <td>
+                                        Developpeur Backend
+                                    </td>
+                                    
+                                </tr>
+
+                            </tbody>
+                        </table>
                     </div>
+                </div>
+            </div>

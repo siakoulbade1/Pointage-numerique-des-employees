@@ -13,9 +13,18 @@ Route::get('/dashboard', function () {
     return view('dash.index');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
+/* INterface creation employé */
 Route::get('/employee', function () {
     return view('dash.employee');
 })->middleware(['auth', 'verified'])->name('employee');
+
+/* CRUD EMPLOYE */
+Route::middleware(['auth', 'role:SECRETAIRE,DIRECTEUR'])->group(function () {
+    Route::resource('employees', EmployeeController::class);
+});
+
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
