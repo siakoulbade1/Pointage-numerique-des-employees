@@ -13,7 +13,7 @@
             <div class="nav-section-title">PRINCIPAL</div>
             <ul class="components">
                 <li>
-                    <a href="#dashboard" class="active">
+                    <a href="{{'dashboard'}}" class="active">
                         <i class="bi bi-speedometer2"></i>
                         <span>Tableau de bord</span>
                     </a>
